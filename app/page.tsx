@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
   // Regex pour validation email plus robuste
   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-  const validateEmail = (email: string) => {
+  const validateEmail = useCallback((email: string) => {
     if (!email) {
       setEmailError('');
       return false;
@@ -19,17 +19,17 @@ export default function Home() {
     
     // Vérifications supplémentaires
     if (email.length < 5) {
-      setEmailError('L\'email doit contenir au moins 5 caractères');
+      setEmailError('L&apos;email doit contenir au moins 5 caractères');
       return false;
     }
     
     if (!email.includes('@')) {
-      setEmailError('L\'email doit contenir le symbole @');
+      setEmailError('L&apos;email doit contenir le symbole @');
       return false;
     }
     
     if (!email.includes('.')) {
-      setEmailError('L\'email doit contenir un point');
+      setEmailError('L&apos;email doit contenir un point');
       return false;
     }
     
@@ -40,7 +40,7 @@ export default function Home() {
     
     setEmailError('');
     return true;
-  };
+  }, [emailRegex]);
 
   const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newEmail = e.target.value;
@@ -58,7 +58,7 @@ export default function Home() {
     }, 500); // Délai de 500ms
 
     return () => clearTimeout(timeoutId);
-  }, [email]);
+  }, [email, validateEmail]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -97,10 +97,10 @@ export default function Home() {
           
           {/* Description */}
           <p className="text-lg text-white/90 mb-8">
-            Never ask "Where did all my money go?" again 🫣
+            Never ask &ldquo;Where did all my money go?&rdquo; again 🫣
           </p>
           
-          {/* Call to action */}
+          {/* CTA */}
           <p className="text-lg text-white/90 mb-8">
             👉 Start saving better, spending smarter, and reaching your goals — effortlessly.
           </p>
@@ -150,7 +150,7 @@ export default function Home() {
           ) : (
             <div className="mb-8 p-4 bg-green-50 border border-green-200 rounded-lg">
               <p className="text-green-800 font-medium">
-                🎉 Thanks for joining! We'll keep you updated.
+                🎉 Thanks for joining! We&apos;ll keep you updated.
               </p>
             </div>
           )}
