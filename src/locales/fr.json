@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "roadmap": "Roadmap",
+    "joinWaitlist": "Rejoindre la waitlist"
+  },
+  "hero": {
+    "badge": "✨ L'app qui transforme votre relation à l'argent",
+    "title": "Prenez le contrôle de votre argent",
+    "titleHighlight": "en 30 secondes",
+    "subtitle": "Visualisez vos dépenses en temps réel, créez des budgets intelligents avec la méthode",
+    "subtitle2": "50-30-20",
+    "subtitle3": ", et économisez sans effort. Votre liberté financière commence ici.",
+    "downloadAppStore": "Télécharger sur l'App Store",
+    "downloadPlayStore": "Disponible sur Google Play"
+  },
+  "features": {
+    "title": "Tout ce dont vous avez besoin. Rien de superflu.",
+    "subtitle": "Une façon plus intelligente de gérer votre argent, suivre vos dépenses et faire croître votre épargne sans effort.",
+    "smartBudget": {
+      "title": "Suivi de Budget Intelligent",
+      "description": "Suivez vos dépenses automatiquement avec des analyses catégorisées et des graphiques visuels."
+    },
+    "transactions": {
+      "title": "Historique des Transactions",
+      "description": "Consultez chaque dépense et revenu avec des filtres et des résumés mensuels."
+    },
+    "savings": {
+      "title": "Poches d'Épargne",
+      "description": "Créez des objectifs d'épargne, remplissage automatique, suivez vos progrès en temps réel."
+    },
+    "subscriptions": {
+      "title": "Gestion des Abonnements",
+      "description": "Détectez les charges récurrentes, annulez celles inutilisées et évitez les fuites."
+    },
+    "security": {
+      "title": "Sécurisé et Chiffré",
+      "description": "Chiffrement bancaire et confidentialité, vos données financières restent protégées."
+    },
+    "learnMore": "En savoir plus",
+    "cta": "Découvrir toutes les fonctionnalités"
+  },
+  "pricing": {
+    "title": "Plans Flexibles pour Chaque Utilisateur",
+    "subtitle": "Commencez gratuitement, passez à un plan supérieur à tout moment. Aucun frais caché, annulez quand vous voulez.",
+    "basic": {
+      "name": "Basique",
+      "price": "Gratuit",
+      "period": "Pour toujours",
+      "features": [
+        "Suivez jusqu'à 50 transactions/mois",
+        "Suivi de budget basique",
+        "3 poches d'épargne",
+        "Catégorisation des dépenses"
+      ],
+      "cta": "Commencer"
+    },
+    "premium": {
+      "name": "Premium",
+      "price": "6,99€",
+      "period": "par mois",
+      "popular": "Le Plus Populaire",
+      "features": [
+        "Transactions illimitées",
+        "Analyses budgétaires avancées",
+        "Poches d'épargne illimitées",
+        "Détection intelligente des factures",
+        "Export de rapports (CSV et PDF)",
+        "Conseils IA pour économiser"
+      ],
+      "cta": "Commencer"
+    },
+    "yearly": {
+      "name": "Annuel",
+      "price": "69,99€",
+      "period": "par an",
+      "features": [
+        "Tout Premium inclus",
+        "Économisez 17% par rapport au mensuel",
+        "Transactions illimitées",
+        "Analyses budgétaires avancées",
+        "Poches d'épargne illimitées",
+        "Support prioritaire 24/7"
+      ],
+      "cta": "Commencer"
+    }
+  },
+  "testimonials": {
+    "badge": "Témoignages",
+    "title": "Ils ont transformé leurs finances",
+    "subtitle": "Découvrez comment Pocketly aide des milliers d'utilisateurs à économiser plus et dépenser mieux.",
+    "items": [
+      {
+        "name": "Sophie Martin",
+        "role": "Designer Freelance",
+        "text": "Pocketly a complètement transformé ma gestion financière. J'ai économisé 30% de plus en seulement 3 mois grâce à la méthode 50-30-20. L'interface est magnifique et ultra-intuitive."
+      },
+      {
+        "name": "Thomas Dubois",
+        "role": "Ingénieur Logiciel",
+        "text": "En tant que développeur, j'apprécie la sécurité et la transparence de Pocketly. Le suivi automatique des abonnements m'a fait économiser 150€/mois en annulant ceux que je n'utilisais plus."
+      },
+      {
+        "name": "Emma Lefebvre",
+        "role": "Responsable Marketing",
+        "text": "Le plan Family est parfait ! Mon mari et moi gérons maintenant notre budget ensemble. Les objectifs d'épargne partagés nous ont permis d'économiser pour nos vacances en 6 mois."
+      },
+      {
+        "name": "Lucas Bernard",
+        "role": "Étudiant",
+        "text": "Même avec un budget étudiant serré, Pocketly m'aide à garder le contrôle. La version gratuite est déjà super complète, et les insights IA m'ont appris à mieux gérer mon argent."
+      },
+      {
+        "name": "Marie Rousseau",
+        "role": "Entrepreneuse",
+        "text": "Pocketly est devenu indispensable pour mon entreprise. Je sépare facilement mes finances perso et pro. Les rapports CSV sont parfaits pour ma comptable !"
+      },
+      {
+        "name": "Alexandre Petit",
+        "role": "Professeur",
+        "text": "Interface claire, notifications intelligentes, et surtout : mes données sont en sécurité. Pocketly est l'app de budget que je recommande à tous mes collègues."
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur Pocketly. Vous ne trouvez pas votre réponse ? Contactez notre équipe.",
+    "items": [
+      {
+        "question": "Pocketly est-il gratuit ?",
+        "answer": "Oui ! Pocketly offre un plan complètement gratuit avec les fonctionnalités essentielles de suivi budgétaire. Vous pouvez suivre jusqu'à 50 transactions par mois, créer 3 poches d'épargne et obtenir une catégorisation de base des dépenses. Pour des fonctionnalités illimitées, vous pouvez passer aux plans Premium ou Famille à tout moment."
+      },
+      {
+        "question": "Puis-je partager des budgets avec mon partenaire ou ma famille ?",
+        "answer": "Oui ! Avec le plan Famille, vous pouvez partager des comptes et budgets avec jusqu'à 5 membres de la famille. Chacun obtient sa propre connexion sécurisée, et vous pouvez collaborer sur des objectifs d'épargne partagés, consulter les budgets combinés et suivre les dépenses du ménage ensemble."
+      },
+      {
+        "question": "Y a-t-il une application mobile disponible ?",
+        "answer": "Pocketly est actuellement en version bêta et sera bientôt disponible sur iOS (App Store) et Android (Google Play). Rejoignez notre liste d'attente pour obtenir un accès anticipé et être informé dès le lancement !"
+      },
+      {
+        "question": "Offrez-vous une politique de remboursement ?",
+        "answer": "Oui, nous offrons une garantie satisfait ou remboursé de 30 jours sur tous les plans payants. Si vous n'êtes pas satisfait de Pocketly pour quelque raison que ce soit dans les 30 premiers jours, contactez notre équipe d'assistance et nous vous rembourserons intégralement, sans poser de questions."
+      }
+    ]
+  },
+  "roadmap": {
+    "badge": "Roadmap",
+    "title": "Notre vision pour l'avenir",
+    "subtitle": "Découvrez les étapes de développement de Pocketly et les fonctionnalités à venir.",
+    "completed": "Terminé",
+    "current": "En cours",
+    "upcoming": "À venir",
+    "items": [
+      {
+        "title": "App en bêta",
+        "description": "Version bêta disponible dès maintenant ! Testez l'application en avant-première et partagez vos retours pour nous aider à créer la meilleure expérience possible."
+      },
+      {
+        "title": "App publiée",
+        "description": "Publication officielle sur l'App Store et Google Play avec toutes les fonctionnalités premium. Accédez à des analyses avancées, des poches d'épargne illimitées et bien plus encore."
+      },
+      {
+        "title": "Version web",
+        "description": "Gérez vos finances depuis n'importe quel appareil avec notre interface web complète. Synchronisation en temps réel, accès depuis votre ordinateur et expérience optimale sur tous les écrans."
+      },
+      {
+        "title": "Budget à 2",
+        "description": "Gérez vos finances en couple ou en famille. Créez des budgets partagés, suivez vos dépenses communes et atteignez vos objectifs ensemble avec une transparence totale."
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Rejoignez +5k utilisateurs en waitlist",
+    "title": "Il est temps de reprendre le contrôle de vos finances.",
+    "subtitle": "Pocketly vous accompagne pour économiser plus, dépenser mieux et atteindre vos objectifs plus vite.",
+    "joinWaitlist": "Rejoindre la waitlist",
+    "watchDemo": "Voir la démo",
+    "freeToStart": "Gratuit pour commencer",
+    "secureData": "Données sécurisées",
+    "guaranteedSavings": "Économies garanties"
+  },
+  "footer": {
+    "description": "L'application mobile qui révolutionne votre quotidien.",
+    "product": "Produit",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "changelog": "Changelog",
+    "company": "Entreprise",
+    "about": "À propos",
+    "careers": "Carrières",
+    "press": "Presse",
+    "contact": "Contact",
+    "support": "Support",
+    "helpCenter": "Centre d'aide",
+    "documentation": "Documentation",
+    "status": "Statut",
+    "privacy": "Confidentialité",
+    "rights": "Tous droits réservés.",
+    "terms": "Conditions d'utilisation",
+    "privacyPolicy": "Politique de confidentialité"
+  },
+  "waitlist": {
+    "title": "Rejoignez la waitlist",
+    "successTitle": "Vous êtes inscrit !",
+    "description": "Soyez parmi les premiers à découvrir Pocketly et obtenez 3 mois gratuits de Premium.",
+    "successDescription": "Merci ! Vous recevrez un email dès que Pocketly sera disponible.",
+    "emailPlaceholder": "votre.email@exemple.com",
+    "submit": "Rejoindre la waitlist",
+    "submitting": "Inscription en cours...",
+    "checkEmail": "Vérifiez votre boîte mail !",
+    "disclaimer": "En vous inscrivant, vous acceptez de recevoir des emails de Pocketly. Vous pouvez vous désinscrire à tout moment.",
+    "usersCount": "5 000+ inscrits",
+    "free": "100% gratuit"
+  }
+}

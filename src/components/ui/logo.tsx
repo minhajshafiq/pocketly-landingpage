@@ -20,7 +20,7 @@ export function Logo({ className = "", size = "md", variant = "default" }: LogoP
   return (
     <div className={`${sizeClass} ${className}`}>
       <Image 
-        src="/play_store_512.png" 
+        src="/icon.png" 
         alt="Pocketly Logo"
         width={64}
         height={64}

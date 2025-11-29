@@ -1,5 +1,7 @@
-import { Header } from "@/components/layout/header"
-import { Footer } from "@/components/layout/footer"
+'use client'
+
+import { Header } from "@/components/landing/Header"
+import { Footer } from "@/components/landing/Footer"
 
 export default function Privacy() {
   return (

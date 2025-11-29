@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "roadmap": "Roadmap",
+    "joinWaitlist": "Join Waitlist"
+  },
+  "hero": {
+    "badge": "✨ The app that transforms your relationship with money",
+    "title": "Take control of your money",
+    "titleHighlight": "in 30 seconds",
+    "subtitle": "Visualize your expenses in real-time, create smart budgets with the",
+    "subtitle2": "method, and save effortlessly.",
+    "subtitle3": "Your financial freedom starts here.",
+    "downloadAppStore": "Download on App Store",
+    "downloadPlayStore": "Get it on Google Play"
+  },
+  "features": {
+    "title": "Everything You Need. Nothing You Don't.",
+    "subtitle": "A smarter way to manage your money, track spending and grow savings effortlessly.",
+    "smartBudget": {
+      "title": "Smart Budget Tracking",
+      "description": "Track spending automatically with categorized insights and visual graphs."
+    },
+    "transactions": {
+      "title": "Transaction History",
+      "description": "View every expense and income with filters and monthly summaries."
+    },
+    "savings": {
+      "title": "Savings Pockets",
+      "description": "Create saving goals, auto-fill allocations, monitor progress in real-time."
+    },
+    "subscriptions": {
+      "title": "Subscription Management",
+      "description": "Detect recurring charges, cancel unused ones and avoid leaks."
+    },
+    "security": {
+      "title": "Secure & Encrypted",
+      "description": "Bank-level encryption & privacy, your financial data stays protected."
+    },
+    "learnMore": "Learn more",
+    "cta": "Explore All Features"
+  },
+  "pricing": {
+    "title": "Flexible Plans for Every User",
+    "subtitle": "Start free, upgrade anytime. No hidden fees, cancel whenever.",
+    "basic": {
+      "name": "Basic",
+      "price": "Free",
+      "period": "Forever",
+      "features": [
+        "Track up to 50 transactions/month",
+        "Basic budget tracking",
+        "3 saving pockets",
+        "Expense categorization"
+      ],
+      "cta": "Get Started"
+    },
+    "premium": {
+      "name": "Premium",
+      "price": "€6.99",
+      "period": "per month",
+      "popular": "Most Popular",
+      "features": [
+        "Unlimited transactions",
+        "Advanced budget analytics",
+        "Unlimited saving pockets",
+        "Smart bill detection",
+        "Export reports (CSV & PDF)",
+        "AI tips for savings"
+      ],
+      "cta": "Get Started"
+    },
+    "yearly": {
+      "name": "Yearly",
+      "price": "€69.99",
+      "period": "per year",
+      "features": [
+        "Everything in Premium",
+        "Save 17% compared to monthly",
+        "Unlimited transactions",
+        "Advanced budget analytics",
+        "Unlimited saving pockets",
+        "Priority support 24/7"
+      ],
+      "cta": "Get Started"
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "They transformed their finances",
+    "subtitle": "Discover how Pocketly helps thousands of users save more and spend better.",
+    "items": [
+      {
+        "name": "Sophie Martin",
+        "role": "Freelance Designer",
+        "text": "Pocketly completely transformed my financial management. I saved 30% more in just 3 months thanks to the 50-30-20 method. The interface is beautiful and super intuitive."
+      },
+      {
+        "name": "Thomas Dubois",
+        "role": "Software Engineer",
+        "text": "As a developer, I appreciate Pocketly's security and transparency. Automatic subscription tracking saved me €150/month by canceling ones I no longer used."
+      },
+      {
+        "name": "Emma Lefebvre",
+        "role": "Marketing Manager",
+        "text": "The Family plan is perfect! My husband and I now manage our budget together. Shared savings goals helped us save for our vacation in 6 months."
+      },
+      {
+        "name": "Lucas Bernard",
+        "role": "Student",
+        "text": "Even with a tight student budget, Pocketly helps me stay in control. The free version is already super complete, and AI insights taught me better money management."
+      },
+      {
+        "name": "Marie Rousseau",
+        "role": "Entrepreneur",
+        "text": "Pocketly became essential for my business. I easily separate personal and professional finances. CSV reports are perfect for my accountant!"
+      },
+      {
+        "name": "Alexandre Petit",
+        "role": "Teacher",
+        "text": "Clear interface, smart notifications, and most importantly: my data is secure. Pocketly is the budget app I recommend to all my colleagues."
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Pocketly. Can't find your answer? Contact our team.",
+    "items": [
+      {
+        "question": "Is Pocketly free to use?",
+        "answer": "Yes! Pocketly offers a completely free plan with essential budget tracking features. You can track up to 50 transactions per month, create 3 saving pockets, and get basic expense categorization. For unlimited features, you can upgrade to Premium or Family plans anytime."
+      },
+      {
+        "question": "Can I share budgets with my partner or family?",
+        "answer": "Yes! With the Family plan, you can share accounts and budgets with up to 5 family members. Everyone gets their own secure login, and you can collaborate on shared saving goals, view combined budgets, and track household expenses together."
+      },
+      {
+        "question": "Is there a mobile app available?",
+        "answer": "Pocketly is currently in beta and will be available soon on both iOS (App Store) and Android (Google Play). Join our waitlist to get early access and be notified as soon as we launch!"
+      },
+      {
+        "question": "Do you offer a refund policy?",
+        "answer": "Yes, we offer a 30-day money-back guarantee on all paid plans. If you're not satisfied with Pocketly for any reason within the first 30 days, contact our support team and we'll issue a full refund—no questions asked."
+      }
+    ]
+  },
+  "roadmap": {
+    "badge": "Roadmap",
+    "title": "Our Vision for the Future",
+    "subtitle": "Discover Pocketly's development stages and upcoming features.",
+    "completed": "Completed",
+    "current": "In Progress",
+    "upcoming": "Coming Soon",
+    "items": [
+      {
+        "title": "Beta App",
+        "description": "Beta version available now! Test the app early and share your feedback to help us create the best possible experience."
+      },
+      {
+        "title": "Published App",
+        "description": "Official release on App Store and Google Play with all premium features. Access advanced analytics, unlimited saving pockets, and much more."
+      },
+      {
+        "title": "Web Version",
+        "description": "Manage your finances from any device with our complete web interface. Real-time sync, access from your computer, and an optimized experience on all screens."
+      },
+      {
+        "title": "Budget for Two",
+        "description": "Manage finances together as a couple or family. Create shared budgets, track common expenses, and reach your goals together with complete transparency."
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Join +5k users on waitlist",
+    "title": "It's time to take control of your finances.",
+    "subtitle": "Pocketly helps you save more, spend better and reach your goals faster.",
+    "joinWaitlist": "Join Waitlist",
+    "watchDemo": "Watch Demo",
+    "freeToStart": "Free to start",
+    "secureData": "Secure data",
+    "guaranteedSavings": "Guaranteed savings"
+  },
+  "footer": {
+    "description": "The mobile app that revolutionizes your daily life.",
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "changelog": "Changelog",
+    "company": "Company",
+    "about": "About",
+    "careers": "Careers",
+    "press": "Press",
+    "contact": "Contact",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "documentation": "Documentation",
+    "status": "Status",
+    "privacy": "Privacy",
+    "rights": "All rights reserved.",
+    "terms": "Terms of Use",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "waitlist": {
+    "title": "Join the Waitlist",
+    "successTitle": "You're in!",
+    "description": "Be among the first to discover Pocketly and get 3 months of Premium free.",
+    "successDescription": "Thank you! You'll receive an email as soon as Pocketly is available.",
+    "emailPlaceholder": "your.email@example.com",
+    "submit": "Join Waitlist",
+    "submitting": "Joining...",
+    "checkEmail": "Check your inbox!",
+    "disclaimer": "By signing up, you agree to receive emails from Pocketly. You can unsubscribe at any time.",
+    "usersCount": "5,000+ signed up",
+    "free": "100% free"
+  }
+}

@@ -1,10 +1,11 @@
-import { Header } from "@/components/layout/header"
-import { Footer } from "@/components/layout/footer"
-import { Hero } from "@/components/sections/hero"
-import { Features } from "@/components/sections/features"
-import { Pricing } from "@/components/sections/pricing"
-import { Roadmap } from "@/components/sections/roadmap"
-import { CTA } from "@/components/sections/cta"
+import { Header } from "@/components/landing/Header"
+import { Footer } from "@/components/landing/Footer"
+import { Hero } from "@/components/landing/Hero"
+import { Features } from "@/components/landing/Features"
+import { Pricing } from "@/components/landing/Pricing"
+import { FAQ } from "@/components/landing/FAQ"
+import { Roadmap } from "@/components/landing/Roadmap"
+import { CTA } from "@/components/landing/CTA"
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
         <Hero />
         <Features />
         <Pricing />
+        {/* <Testimonials /> */}
+        <FAQ />
         <Roadmap />
         <CTA />
       </main>
