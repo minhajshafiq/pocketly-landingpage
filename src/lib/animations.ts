@@ -88,38 +88,38 @@ export const springHover = {
   whileHover: {
     scale: 1.03,
     transition: {
-      type: 'spring',
+      type: 'spring' as const,
       stiffness: 400,
       damping: 10,
     }
   },
   whileTap: { scale: 0.98 },
-}
+} as const
 
 export const buttonSpring = {
   whileHover: {
     scale: 1.05,
     boxShadow: '0 12px 32px -4px hsl(var(--primary) / 0.2)',
     transition: {
-      type: 'spring',
+      type: 'spring' as const,
       stiffness: 400,
       damping: 10,
     }
   },
   whileTap: { scale: 0.95 },
-}
+} as const
 
 export const cardSpring = {
   whileHover: {
     y: -4,
     boxShadow: '0 12px 32px -4px hsl(var(--primary) / 0.16)',
     transition: {
-      type: 'spring',
+      type: 'spring' as const,
       stiffness: 300,
       damping: 20,
     }
   },
-}
+} as const
 
 // GSAP ScrollTrigger defaults
 export const scrollTriggerDefaults = {
