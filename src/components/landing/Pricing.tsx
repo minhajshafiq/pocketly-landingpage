@@ -14,14 +14,6 @@ export function Pricing() {
 
   const plans = [
     {
-      name: t('pricing.basic.name'),
-      price: t('pricing.basic.price'),
-      period: t('pricing.basic.period'),
-      features: t('pricing.basic.features') as unknown as string[],
-      cta: t('pricing.basic.cta'),
-      variant: 'default' as const,
-    },
-    {
       name: t('pricing.premium.name'),
       price: t('pricing.premium.price'),
       period: t('pricing.premium.period'),
@@ -52,7 +44,7 @@ export function Pricing() {
         />
 
         {/* Pricing Cards Grid - Mobile First */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
           {plans.map((plan, index) => (
             <motion.div
               key={plan.name as string}

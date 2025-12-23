@@ -16,15 +16,10 @@ export function CTA() {
   return (
     <section
       className={cn(
-        'bg-gradient-to-br from-primary via-primary/95 to-accent text-primary-foreground relative overflow-hidden',
+        'bg-primary text-primary-foreground relative overflow-hidden',
         section.padding.combined
       )}
     >
-      {/* Decorative background elements */}
-      <div className="absolute inset-0 bg-grid-pattern opacity-10" />
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/20 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-primary/20 rounded-full blur-3xl" />
-
       <Container className="relative z-10">
         <motion.div
           variants={fadeInUp}
@@ -34,45 +29,68 @@ export function CTA() {
           className="text-center space-y-6 md:space-y-8 max-w-4xl mx-auto"
         >
           {/* Badge */}
-          <div className="flex justify-center">
+          <motion.div
+            variants={fadeInUp}
+            initial="initial"
+            whileInView="animate"
+            viewport={viewport}
+            className="flex justify-center"
+          >
             <Badge
               variant="secondary"
-              className="bg-white/20 text-white border-white/30 px-4 py-2 text-xs md:text-sm font-medium backdrop-blur-sm"
+              className="bg-white dark:bg-white/95 text-primary dark:text-primary border-white/20 dark:border-white/30 px-4 md:px-6 py-2 text-xs md:text-sm font-medium shadow-lg backdrop-blur-sm"
             >
-              <Star className="h-3 w-3 md:h-4 md:w-4 mr-2 fill-white text-white" />
+              <Star className="h-3 w-3 md:h-4 md:w-4 mr-2 fill-primary text-primary" />
               {t('cta.badge') as string}
             </Badge>
-          </div>
+          </motion.div>
 
           {/* Heading */}
-          <h2
+          <motion.h2
+            variants={fadeInUp}
+            initial="initial"
+            whileInView="animate"
+            viewport={viewport}
+            transition={{ delay: 0.1 }}
             className={cn(
               typography.h1.combined,
               'font-bold leading-tight tracking-tight text-white'
             )}
           >
             {t('cta.title') as string}
-          </h2>
+          </motion.h2>
 
           {/* Description */}
-          <p
+          <motion.p
+            variants={fadeInUp}
+            initial="initial"
+            whileInView="animate"
+            viewport={viewport}
+            transition={{ delay: 0.2 }}
             className={cn(
               typography.bodyLg.combined,
-              'text-white/90 max-w-3xl mx-auto leading-relaxed font-medium'
+              'text-white max-w-3xl mx-auto leading-relaxed'
             )}
           >
             {t('cta.subtitle') as string}
-          </p>
+          </motion.p>
 
           {/* CTA Buttons - Mobile First */}
-          <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center pt-2 md:pt-4">
+          <motion.div
+            variants={fadeInUp}
+            initial="initial"
+            whileInView="animate"
+            viewport={viewport}
+            transition={{ delay: 0.3 }}
+            className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center pt-2 md:pt-4"
+          >
             <WaitlistForm>
               <AnimatedButton
                 size="lg"
                 variant="secondary"
-                className="bg-white text-primary hover:bg-white/90 px-6 md:px-10 py-5 md:py-6 text-base md:text-lg font-bold shadow-xl w-full sm:w-auto cursor-pointer"
+                className="bg-white text-primary hover:bg-white/95 px-6 md:px-8 py-4 md:py-5 text-base md:text-lg font-semibold shadow-xl w-full sm:w-auto cursor-pointer"
               >
-                <Rocket className="h-5 w-5 md:h-6 md:w-6 mr-2 md:mr-3" />
+                <Rocket className="h-5 w-5 mr-2" />
                 {t('cta.joinWaitlist') as string}
               </AnimatedButton>
             </WaitlistForm>
@@ -80,28 +98,28 @@ export function CTA() {
             <AnimatedButton
               size="lg"
               variant="secondary"
-              className="bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white hover:bg-white/20 hover:border-white/50 px-6 md:px-10 py-5 md:py-6 text-base md:text-lg font-semibold w-full sm:w-auto cursor-pointer"
+              className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-6 md:px-8 py-4 md:py-5 text-base md:text-lg font-semibold w-full sm:w-auto cursor-pointer"
             >
-              <Play className="h-5 w-5 md:h-6 md:w-6 mr-2" />
+              <Play className="h-5 w-5 mr-2" />
               {t('cta.watchDemo') as string}
             </AnimatedButton>
-          </div>
+          </motion.div>
 
           {/* Trust Indicators - Mobile First */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 text-sm md:text-base text-white/90 font-medium pt-4">
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-white rounded-full shadow-sm" />
-              <span>{t('cta.freeToStart') as string}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-white rounded-full shadow-sm" />
-              <span>{t('cta.secureData') as string}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-white rounded-full shadow-sm" />
-              <span>{t('cta.guaranteedSavings') as string}</span>
-            </div>
-          </div>
+          <motion.div
+            variants={fadeInUp}
+            initial="initial"
+            whileInView="animate"
+            viewport={viewport}
+            transition={{ delay: 0.4 }}
+            className="flex flex-wrap items-center justify-center gap-2 md:gap-4 text-sm md:text-base text-white font-medium pt-4 md:pt-6"
+          >
+            <span>{t('cta.freeToStart') as string}</span>
+            <span className="text-white/50">•</span>
+            <span>{t('cta.realTimeTracking') as string}</span>
+            <span className="text-white/50">•</span>
+            <span>{t('cta.guaranteedSavings') as string}</span>
+          </motion.div>
         </motion.div>
       </Container>
     </section>

@@ -7,6 +7,8 @@ import { gsap } from 'gsap'
 import { Badge } from '@/components/ui/badge'
 import { Container } from '@/components/design-system/Container'
 import { GradientText } from '@/components/design-system/GradientText'
+import { WaitlistForm } from '@/components/design-system/WaitlistForm'
+import { AnimatedButton } from '@/components/design-system/AnimatedButton'
 import { typography, section } from '@/lib/design-tokens'
 import { fadeInUp, scaleIn, viewport } from '@/lib/animations'
 import { cn } from '@/lib/utils'
@@ -157,45 +159,23 @@ export function Hero() {
             {t('hero.subtitle3') as string}
           </motion.p>
 
-          {/* App Store Buttons - Mobile First */}
+          {/* Waitlist Button - Temporary */}
           <motion.div
             variants={fadeInUp}
             initial="initial"
             animate="animate"
             viewport={viewport}
             transition={{ delay: 0.5 }}
-            className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center pt-2 md:pt-4"
+            className="flex justify-center items-center pt-2 md:pt-4"
           >
-            <motion.a
-              href="#"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="transition-all duration-300 cursor-pointer inline-block w-full sm:w-auto max-w-[200px]"
-              aria-label={t('hero.downloadAppStore') as string}
-            >
-              <Image
-                src="/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
-                alt={t('hero.downloadAppStore') as string}
-                width={180}
-                height={60}
-                className="h-12 md:h-14 w-full"
-              />
-            </motion.a>
-            <motion.a
-              href="#"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="transition-all duration-300 cursor-pointer inline-block w-full sm:w-auto max-w-[200px]"
-              aria-label={t('hero.downloadPlayStore') as string}
-            >
-              <Image
-                src="/GetItOnGooglePlay_Badge_Web_color_English.svg"
-                alt={t('hero.downloadPlayStore') as string}
-                width={200}
-                height={60}
-                className="h-12 md:h-14 w-full"
-              />
-            </motion.a>
+            <WaitlistForm>
+              <AnimatedButton
+                size="lg"
+                className="w-full sm:w-auto px-8 md:px-12 h-12 md:h-14 text-base md:text-lg font-semibold bg-primary hover:bg-primary/90 text-primary-foreground cursor-pointer"
+              >
+                {t('nav.joinWaitlist') as string}
+              </AnimatedButton>
+            </WaitlistForm>
           </motion.div>
         </div>
 
@@ -212,7 +192,7 @@ export function Hero() {
           <div className="block md:hidden">
             <div className="relative w-[280px] mx-auto">
               <Image
-                src="/mockup.png"
+                src="/Group 84-portrait.png"
                 alt="Pocketly App"
                 width={280}
                 height={600}
@@ -221,24 +201,23 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Desktop: Three overlapping phones with parallax */}
-          <div className="hidden md:block relative w-full max-w-5xl h-[500px] lg:h-[600px]">
+          {/* Desktop: Three phones with clean modern layout */}
+          <div className="hidden md:flex relative w-full max-w-6xl gap-4 lg:gap-6 justify-center items-center px-4">
             {/* Left Phone */}
             <div
               ref={(el) => {
                 if (el) phoneRefs.current[0] = el
               }}
-              className="absolute left-0 lg:left-8 top-1/2 -translate-y-1/2 z-10 w-[220px] lg:w-[280px]"
-              style={{ rotate: '-12deg' }}
+              className="relative w-[240px] lg:w-[300px] transform hover:scale-105 transition-transform duration-300"
             >
               <Image
-                src="/mockup.png"
+                src="/Group 85-portrait.png"
                 alt="Pocketly App - Suivi des dépenses"
-                width={280}
-                height={600}
-                className="w-full h-auto drop-shadow-2xl rounded-3xl"
+                width={300}
+                height={640}
+                className="w-full h-auto drop-shadow-2xl rounded-[2.5rem]"
+                priority
               />
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-3xl pointer-events-none" />
             </div>
 
             {/* Center Phone - Most prominent */}
@@ -246,16 +225,16 @@ export function Hero() {
               ref={(el) => {
                 if (el) phoneRefs.current[1] = el
               }}
-              className="absolute left-1/2 -translate-x-1/2 top-0 z-20 w-[280px] lg:w-[340px]"
+              className="relative w-[260px] lg:w-[340px] transform hover:scale-105 transition-transform duration-300 z-10"
             >
               <Image
-                src="/mockup.png"
+                src="/Group 84-portrait.png"
                 alt="Pocketly App - Gestion financière"
                 width={340}
-                height={700}
-                className="w-full h-auto drop-shadow-2xl rounded-3xl"
+                height={720}
+                className="w-full h-auto drop-shadow-2xl rounded-[2.5rem]"
+                priority
               />
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-3xl pointer-events-none" />
             </div>
 
             {/* Right Phone */}
@@ -263,17 +242,16 @@ export function Hero() {
               ref={(el) => {
                 if (el) phoneRefs.current[2] = el
               }}
-              className="absolute right-0 lg:right-8 top-1/2 -translate-y-1/2 z-10 w-[220px] lg:w-[280px]"
-              style={{ rotate: '12deg' }}
+              className="relative w-[240px] lg:w-[300px] transform hover:scale-105 transition-transform duration-300"
             >
               <Image
-                src="/mockup.png"
+                src="/Group 86-portrait.png"
                 alt="Pocketly App - Budget et épargne"
-                width={280}
-                height={600}
-                className="w-full h-auto drop-shadow-2xl rounded-3xl"
+                width={300}
+                height={640}
+                className="w-full h-auto drop-shadow-2xl rounded-[2.5rem]"
+                priority
               />
-              <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent rounded-3xl pointer-events-none" />
             </div>
           </div>
         </motion.div>

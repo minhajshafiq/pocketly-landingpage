@@ -35,9 +35,9 @@
       "title": "Subscription Management",
       "description": "Detect recurring charges, cancel unused ones and avoid leaks."
     },
-    "security": {
-      "title": "Secure & Encrypted",
-      "description": "Bank-level encryption & privacy, your financial data stays protected."
+    "notifications": {
+      "title": "Personalized Notifications",
+      "description": "Get smart alerts on your spending, budgets, and savings goals in real-time."
     },
     "learnMore": "Learn more",
     "cta": "Explore All Features"
@@ -50,10 +50,7 @@
       "price": "Free",
       "period": "Forever",
       "features": [
-        "Track up to 50 transactions/month",
-        "Basic budget tracking",
-        "3 saving pockets",
-        "Expense categorization"
+        "Transaction tracking"
       ],
       "cta": "Get Started"
     },
@@ -66,9 +63,7 @@
         "Unlimited transactions",
         "Advanced budget analytics",
         "Unlimited saving pockets",
-        "Smart bill detection",
-        "Export reports (CSV & PDF)",
-        "AI tips for savings"
+        "Custom categories"
       ],
       "cta": "Get Started"
     },
@@ -77,12 +72,11 @@
       "price": "€69.99",
       "period": "per year",
       "features": [
-        "Everything in Premium",
         "Save 17% compared to monthly",
         "Unlimited transactions",
         "Advanced budget analytics",
         "Unlimited saving pockets",
-        "Priority support 24/7"
+        "Custom categories"
       ],
       "cta": "Get Started"
     }
@@ -130,20 +124,16 @@
     "subtitle": "Everything you need to know about Pocketly. Can't find your answer? Contact our team.",
     "items": [
       {
-        "question": "Is Pocketly free to use?",
-        "answer": "Yes! Pocketly offers a completely free plan with essential budget tracking features. You can track up to 50 transactions per month, create 3 saving pockets, and get basic expense categorization. For unlimited features, you can upgrade to Premium or Family plans anytime."
-      },
-      {
-        "question": "Can I share budgets with my partner or family?",
-        "answer": "Yes! With the Family plan, you can share accounts and budgets with up to 5 family members. Everyone gets their own secure login, and you can collaborate on shared saving goals, view combined budgets, and track household expenses together."
+        "question": "What's the difference between Premium and Yearly plans?",
+        "answer": "The Premium plan is billed monthly at €6.99 per month, while the Yearly plan is billed once per year at €69.99. Both plans offer exactly the same features: unlimited transactions, advanced budget analytics, unlimited saving pockets, and custom categories. The Yearly plan saves you 17% compared to monthly payments."
       },
       {
         "question": "Is there a mobile app available?",
         "answer": "Pocketly is currently in beta and will be available soon on both iOS (App Store) and Android (Google Play). Join our waitlist to get early access and be notified as soon as we launch!"
       },
       {
-        "question": "Do you offer a refund policy?",
-        "answer": "Yes, we offer a 30-day money-back guarantee on all paid plans. If you're not satisfied with Pocketly for any reason within the first 30 days, contact our support team and we'll issue a full refund—no questions asked."
+        "question": "Can I cancel my subscription anytime?",
+        "answer": "Yes, you can cancel your subscription at any time from your account settings. No hidden fees, no penalties. Your subscription will remain active until the end of your current billing period."
       }
     ]
   },
@@ -180,7 +170,7 @@
     "joinWaitlist": "Join Waitlist",
     "watchDemo": "Watch Demo",
     "freeToStart": "Free to start",
-    "secureData": "Secure data",
+    "realTimeTracking": "Real-time tracking",
     "guaranteedSavings": "Guaranteed savings"
   },
   "footer": {
@@ -206,7 +196,7 @@
   "waitlist": {
     "title": "Join the Waitlist",
     "successTitle": "You're in!",
-    "description": "Be among the first to discover Pocketly and get 3 months of Premium free.",
+    "description": "Be among the first to discover Pocketly and be notified as soon as we launch.",
     "successDescription": "Thank you! You'll receive an email as soon as Pocketly is available.",
     "emailPlaceholder": "your.email@example.com",
     "submit": "Join Waitlist",

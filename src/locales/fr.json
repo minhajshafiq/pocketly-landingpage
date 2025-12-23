@@ -35,9 +35,9 @@
       "title": "Gestion des Abonnements",
       "description": "Détectez les charges récurrentes, annulez celles inutilisées et évitez les fuites."
     },
-    "security": {
-      "title": "Sécurisé et Chiffré",
-      "description": "Chiffrement bancaire et confidentialité, vos données financières restent protégées."
+    "notifications": {
+      "title": "Notifications Personnalisées",
+      "description": "Recevez des alertes intelligentes sur vos dépenses, budgets et objectifs d'épargne en temps réel."
     },
     "learnMore": "En savoir plus",
     "cta": "Découvrir toutes les fonctionnalités"
@@ -50,10 +50,7 @@
       "price": "Gratuit",
       "period": "Pour toujours",
       "features": [
-        "Suivez jusqu'à 50 transactions/mois",
-        "Suivi de budget basique",
-        "3 poches d'épargne",
-        "Catégorisation des dépenses"
+        "Suivi des transactions"
       ],
       "cta": "Commencer"
     },
@@ -66,9 +63,7 @@
         "Transactions illimitées",
         "Analyses budgétaires avancées",
         "Poches d'épargne illimitées",
-        "Détection intelligente des factures",
-        "Export de rapports (CSV et PDF)",
-        "Conseils IA pour économiser"
+        "Catégories personnalisées"
       ],
       "cta": "Commencer"
     },
@@ -77,12 +72,11 @@
       "price": "69,99€",
       "period": "par an",
       "features": [
-        "Tout Premium inclus",
         "Économisez 17% par rapport au mensuel",
         "Transactions illimitées",
         "Analyses budgétaires avancées",
         "Poches d'épargne illimitées",
-        "Support prioritaire 24/7"
+        "Catégories personnalisées"
       ],
       "cta": "Commencer"
     }
@@ -130,20 +124,16 @@
     "subtitle": "Tout ce que vous devez savoir sur Pocketly. Vous ne trouvez pas votre réponse ? Contactez notre équipe.",
     "items": [
       {
-        "question": "Pocketly est-il gratuit ?",
-        "answer": "Oui ! Pocketly offre un plan complètement gratuit avec les fonctionnalités essentielles de suivi budgétaire. Vous pouvez suivre jusqu'à 50 transactions par mois, créer 3 poches d'épargne et obtenir une catégorisation de base des dépenses. Pour des fonctionnalités illimitées, vous pouvez passer aux plans Premium ou Famille à tout moment."
-      },
-      {
-        "question": "Puis-je partager des budgets avec mon partenaire ou ma famille ?",
-        "answer": "Oui ! Avec le plan Famille, vous pouvez partager des comptes et budgets avec jusqu'à 5 membres de la famille. Chacun obtient sa propre connexion sécurisée, et vous pouvez collaborer sur des objectifs d'épargne partagés, consulter les budgets combinés et suivre les dépenses du ménage ensemble."
+        "question": "Quelle est la différence entre le plan Premium et le plan Annuel ?",
+        "answer": "Le plan Premium est facturé mensuellement à 6,99€ par mois, tandis que le plan Annuel est facturé une fois par an à 69,99€. Les deux plans offrent exactement les mêmes fonctionnalités : transactions illimitées, analyses budgétaires avancées, poches d'épargne illimitées et catégories personnalisées. Le plan Annuel vous fait économiser 17% par rapport au paiement mensuel."
       },
       {
         "question": "Y a-t-il une application mobile disponible ?",
         "answer": "Pocketly est actuellement en version bêta et sera bientôt disponible sur iOS (App Store) et Android (Google Play). Rejoignez notre liste d'attente pour obtenir un accès anticipé et être informé dès le lancement !"
       },
       {
-        "question": "Offrez-vous une politique de remboursement ?",
-        "answer": "Oui, nous offrons une garantie satisfait ou remboursé de 30 jours sur tous les plans payants. Si vous n'êtes pas satisfait de Pocketly pour quelque raison que ce soit dans les 30 premiers jours, contactez notre équipe d'assistance et nous vous rembourserons intégralement, sans poser de questions."
+        "question": "Puis-je annuler mon abonnement à tout moment ?",
+        "answer": "Oui, vous pouvez annuler votre abonnement à tout moment depuis les paramètres de votre compte. Aucun frais caché, aucune pénalité. Votre abonnement restera actif jusqu'à la fin de la période de facturation en cours."
       }
     ]
   },
@@ -180,7 +170,7 @@
     "joinWaitlist": "Rejoindre la waitlist",
     "watchDemo": "Voir la démo",
     "freeToStart": "Gratuit pour commencer",
-    "secureData": "Données sécurisées",
+    "realTimeTracking": "Suivi en temps réel",
     "guaranteedSavings": "Économies garanties"
   },
   "footer": {
@@ -206,7 +196,7 @@
   "waitlist": {
     "title": "Rejoignez la waitlist",
     "successTitle": "Vous êtes inscrit !",
-    "description": "Soyez parmi les premiers à découvrir Pocketly et obtenez 3 mois gratuits de Premium.",
+    "description": "Soyez parmi les premiers à découvrir Pocketly et soyez notifié dès le lancement.",
     "successDescription": "Merci ! Vous recevrez un email dès que Pocketly sera disponible.",
     "emailPlaceholder": "votre.email@exemple.com",
     "submit": "Rejoindre la waitlist",

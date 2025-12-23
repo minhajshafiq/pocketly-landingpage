@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { BarChart3, CreditCard, PiggyBank, RefreshCw, Shield, ArrowRight } from 'lucide-react'
+import { BarChart3, CreditCard, PiggyBank, RefreshCw, Bell, ArrowRight } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { AnimatedButton } from '@/components/design-system/AnimatedButton'
@@ -51,9 +51,9 @@ export function Features() {
     },
     {
       id: 5,
-      title: t('features.security.title'),
-      description: t('features.security.description'),
-      icon: Shield,
+      title: t('features.notifications.title'),
+      description: t('features.notifications.description'),
+      icon: Bell,
     },
   ]
 
@@ -145,7 +145,7 @@ export function Features() {
           >
             <div className="relative w-full max-w-[200px] sm:max-w-[240px] md:max-w-[280px] mx-auto">
               <Image
-                src="/Home_App_Mockup.png"
+                src="/Group 84-portrait.png"
                 alt="Pocketly App Preview"
                 width={320}
                 height={640}
